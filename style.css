@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.fast-part{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.fast-part-2{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width-1{
+    margin: 5%;
+    padding: 10px;
+    width: 50%;
+}
+.half-width-1 img{
+    width: 70%;
+}
+h1{
+    font-size: 40px;
+    
+}
+
+.heading-2{
+    margin-bottom: 50px;
+}
+.green{
+    color:brown;
+}
+p{
+    font-size: 20px;
+}
+.link-buttion{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-image: linear-gradient(green,red);
+    margin-top: 20px;
+    font-size: 20px;
+    color: yellow;
+    
+}
+.btn{
+    margin-top: 25px;
+}
+.half-width-2{
+    display: flex;
+    
+}
+#part-ses{
+    display: flex;
+    margin-bottom: 40px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.font-mnj{
+    font-size: 30px;
+    display: inline;
+}
+.last-half-width-1{
+    margin: 5%;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 10px 10px 25px rgb(46, 46, 48);
+    margin-right: 5px;
+    margin-left: 5px;
+
+   
+}
+#full-stack{
+    border-left:solid 8px;
+    border-radius: 5px;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    margin-left: 30px;
+    margin-right: 40px;
+    background-color: violet;
+    
+}
+#baby-web{
+    border-left:solid 8px;
+    border-radius: 5px;
+    border-image: linear-gradient(skyblue,blue);
+    border-image-slice: 1;
+    margin-right: 30px;
+    margin-left: 40px;
+    background-color: rgb(207, 112, 112);
+}
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
